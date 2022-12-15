@@ -1,0 +1,8 @@
+nome = str(input('Digite seu nome completo: ')).strip().title()
+print(f'Prazer em te conhecer {nome}')
+dividido = nome.split()
+print(f'Seu primeiro nome é {dividido[0]}')
+#print(nome.count(' '))
+lastname = (nome.rfind(' '))
+print(f'Seu último nome é{nome[lastname:]}')
+#print(f'Seu último nome é {dividido}')

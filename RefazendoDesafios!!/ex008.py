@@ -1,0 +1,8 @@
+m = float(input('\033[1:35mUma médida em metros: \033[m'))
+print(f'A medida de {m} metros corresponde a: ')
+print(f'{m/1000}km')
+print(f'{m/100}hm')
+print(f'{m/10}dam')
+print(f'{m*10:.0f}dm')
+print(f'{m*100:.0f}cm')
+print(f'{m*1000:.0f}mm')
